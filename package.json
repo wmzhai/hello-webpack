@@ -1,0 +1,22 @@
+{
+  "name": "hello-webpack",
+  "version": "1.0.0",
+  "description": "参考 http://webpack.github.io/docs/tutorials/getting-started/",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --progress --colors --watch",
+    "serve": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmzhai/hello-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  }
+}
