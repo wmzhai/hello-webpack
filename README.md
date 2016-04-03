@@ -39,11 +39,10 @@ webpack-dev-server --progress --colors
 ```
 
 访问如下网址，当页面重新重新编译以后，会自动刷新加载
-http://localhost:8080/webpack-dev-server/bundle/
 
-如果仅访问
-http://localhost:8080/
-则需要手动刷新
+http://localhost:8080/webpack-dev-server/bundle
+
+如果仅访问 http://localhost:8080 则需要手动刷新
 
 
 
